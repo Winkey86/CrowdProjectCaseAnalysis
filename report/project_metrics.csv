@@ -1,0 +1,6 @@
+metric,formula,value,why_it_matters
+completion_rate,APPROVED assignments / all assignments,0.8666791062182209,"Операционная стабильность: доля страниц, завершённых и одобренных."
+unfinished_assignment_share,(EXPIRED assignments + SKIPPED assignments) / all assignments,0.13332089378177917,Потери потока: доля EXPIRED + SKIPPED среди всех страниц.
+control_accuracy (основная метрика качества проекта),correct worker-control votes / valid worker-control votes,0.7190477984104863,Качество разметки: точность исполнителей на контрольных заданиях.
+problem_control_share,(difficult controls + ambiguous controls) / controls with n_valid_votes >= 4,0.29323843416370104,Качество контрольного пула: доля сложных/неоднозначных контролей среди контролей с n>=4.
+suspicious_worker_share,workers with any risk flag / all workers,0.2891939769707706,Риск по исполнителям: доля работников с признаками низкого качества или неустойчивого поведения.
